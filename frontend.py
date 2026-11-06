@@ -1,10 +1,11 @@
 
+import hmac
 import os
 import httpx
 import streamlit as st
 from dotenv import load_dotenv
+
 load_dotenv()
-APP_API_KEY = os.getenv("APP_API_KEY")
 
 API_URL = os.getenv(
     "EMAIL_API_URL",
@@ -16,6 +17,55 @@ st.set_page_config(
     page_icon="✉️",
     layout="centered"
 )
+
+def get_setting(name, default=None):
+    # Cloud deployment secrets take precedence
+    try:
+        return st.secrets[name]
+    except (KeyError, FileNotFoundError):
+        return os.getenv(name, default)
+
+
+APP_API_KEY = get_setting("APP_API_KEY")
+
+
+def require_demo_access():
+    expected_password = get_setting("DEMO_PASSWORD")
+
+    if not expected_password:
+        st.error("Demo access is not configured.")
+        st.stop()
+
+    if st.session_state.get("authenticated", False):
+        return
+
+    st.title("AI Email Generator")
+    st.info("Enter the demonstration access password.")
+
+    with st.form("demo_login"):
+        password = st.text_input(
+            "Demo Password",
+            type="password"
+        )
+        submitted = st.form_submit_button("Access Demo")
+
+    if submitted:
+        if hmac.compare_digest(
+            password,
+            expected_password
+        ):
+            st.session_state["authenticated"] = True
+            st.rerun()
+        else:
+            st.error("Incorrect password.")
+
+    st.stop()
+
+require_demo_access()
+
+
+
+
 
 st.title("AI Email Generator")
 st.caption("Powered by FastAPI and an open-weight LLM")
@@ -56,7 +106,12 @@ if submitted:
                         "recipient": recipient
                     },
                     headers={"X-API-Key": APP_API_KEY or ""},
-                    timeout=45.0
+                    timeout=httpx.Timeout(
+                        connect=20.0,
+                        read=150.0,
+                        write=20.0,
+                        pool=10.0
+                    )
                 )
 
             response.raise_for_status()
