@@ -1,0 +1,31 @@
+test_id,purpose,tone,recipient
+TC001,Request two days of leave,Formal,Manager
+TC002,Request two days of leave,Professional,Manager
+TC003,Request two days of leave,Friendly,Manager
+TC004,Follow up on a job interview,Formal,HR
+TC005,Follow up on a job interview,Professional,HR
+TC006,Follow up on a job interview,Friendly,HR
+TC007,Request an update on a project proposal,Formal,Client
+TC008,Request an update on a project proposal,Professional,Client
+TC009,Request an update on a project proposal,Friendly,Client
+TC010,Thank someone for helping with a project,Formal,Colleague
+TC011,Thank someone for helping with a project,Professional,Colleague
+TC012,Thank someone for helping with a project,Friendly,Colleague
+TC013,Request a meeting to discuss project progress,Formal,Manager
+TC014,Request a meeting to discuss project progress,Professional,Manager
+TC015,Request a meeting to discuss project progress,Friendly,Manager
+TC016,Apologize for a delayed response,Formal,Client
+TC017,Apologize for a delayed response,Professional,Client
+TC018,Apologize for a delayed response,Friendly,Client
+TC019,Ask for clarification about project requirements,Formal,Client
+TC020,Ask for clarification about project requirements,Professional,Client
+TC021,Ask for clarification about project requirements,Friendly,Client
+TC022,Request permission to work from home tomorrow,Formal,Manager
+TC023,Request permission to work from home tomorrow,Professional,Manager
+TC024,Request permission to work from home tomorrow,Friendly,Manager
+TC025,Inform a colleague about a project milestone,Formal,Colleague
+TC026,Inform a colleague about a project milestone,Professional,Colleague
+TC027,Inform a colleague about a project milestone,Friendly,Colleague
+TC028,Politely decline a meeting invitation,Formal,Manager
+TC029,Politely decline a meeting invitation,Professional,Manager
+TC030,Politely decline a meeting invitation,Friendly,Manager

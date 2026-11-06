@@ -1,0 +1,218 @@
+test_id,purpose,tone,recipient,http_status,schema_valid,latency_ms,request_id,subject,body,error_type,subject_score,tone_score,factual_score,completion_score,review_notes
+TC001,Request two days of leave,Formal,Manager,200,True,4315.2,925835e2-d5f8-44e8-ad22-2685a63f317f,Request for Leave – [Start Date] to [End Date],"Dear [Manager Name],
+
+I am writing to formally request two days of leave from [Start Date] to [End Date]. I have ensured that all my current tasks are up to date and have arranged for coverage during my absence.
+
+Thank you for considering my request. Please let me know if you need any additional information.
+
+Sincerely,
+[Your Name]",,,,,,
+TC002,Request two days of leave,Professional,Manager,200,True,2115.48,499b252e-3bac-41a4-be32-d6ec72017a7d,Leave Request for [Start Date] to [End Date],"Dear [Manager Name],
+
+I am writing to formally request two days of leave from [Start Date] to [End Date]. I have ensured that all my current tasks are on track and have briefed [Colleague Name] to cover any urgent matters during my absence.
+
+Thank you for considering my request. Please let me know if you need any additional information.
+
+Sincerely,
+[Your Name]",,,,,,
+TC003,Request two days of leave,Friendly,Manager,200,True,1804.56,0596b4bf-140d-46ec-a1b8-60ed56da2d78,Leave Request: [Start Date] – [End Date],"Dear [Manager Name],
+
+I hope you're doing well. I am writing to request two days of leave from [Start Date] to [End Date]. I have ensured that all my current tasks are up to date and have briefed [Colleague] to cover any urgent matters in my absence. Please let me know if you need any additional information.
+
+Thank you for your understanding.
+
+Best regards,
+[Your Name]",,,,,,
+TC004,Follow up on a job interview,Formal,HR,200,True,1991.12,df637873-0bcd-4462-8116-69414510506d,Follow-Up Regarding Interview for [Position Title],"Dear Hiring Manager,
+
+I hope this message finds you well. I am writing to follow up on my interview for the [Position Title] role on [Interview Date]. I remain very enthusiastic about the opportunity to contribute to [Company Name] and would appreciate any updates you can share regarding the hiring timeline.
+
+Thank you again for considering my application. I look forward to hearing from you.
+
+Sincerely,
+[Your Name]",,,,,,
+TC005,Follow up on a job interview,Professional,HR,200,True,2088.38,356c9320-3e66-4775-aed2-c139ba7ecaec,Follow-Up on Interview for [Position Title],"Dear [HR Name],
+
+I hope this message finds you well. I wanted to thank you again for the opportunity to interview for the [Position Title] role on [Interview Date]. I remain very enthusiastic about the possibility of joining [Company Name] and contributing to your team.
+
+I would appreciate any update you can share regarding the hiring timeline or next steps. Please let me know if you need any additional information from my side.
+
+Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]",,,,,,
+TC006,Follow up on a job interview,Friendly,HR,200,True,2618.97,bf56e1b0-194e-4dda-aab0-25bb19faca39,Follow-Up on Interview for [Position] – [Your Name],"Dear [HR Name],
+
+I hope you’re doing well. I wanted to thank you again for the opportunity to interview for the [Position] on [Interview Date]. I enjoyed learning more about the team and the exciting projects at [Company Name].
+
+I remain very enthusiastic about the possibility of contributing to the team and would appreciate any update you can share regarding the next steps in the hiring process.
+
+Thank you for your time and consideration.
+
+Best regards,
+[Your Name]",,,,,,
+TC007,Request an update on a project proposal,Formal,Client,200,True,2397.39,da65c26c-0651-48f5-a049-3414b12d20bd,Request for Update on Project Proposal,"Dear [Client Name],
+
+I hope this message finds you well. I am writing to kindly request an update regarding the project proposal titled ""[Proposal Title]"" that was submitted on [Submission Date]. We would appreciate any feedback or decisions you may have reached, as this will help us plan the next steps accordingly.
+
+Thank you for your attention to this matter. I look forward to your response.
+
+Sincerely,
+[Your Name]
+[Your Position]
+[Your Company]",,,,,,
+TC008,Request an update on a project proposal,Professional,Client,200,True,1862.74,f3a134fe-7ae2-46ba-b638-27d92159fcc0,Request for Update on Project Proposal,"Dear [Client Name],
+
+I hope this message finds you well. I am writing to kindly request an update on the status of the project proposal submitted on [Submission Date]. Could you please let me know if there are any additional details or clarifications needed from our side?
+
+Thank you for your attention to this matter. I look forward to your response.
+
+Best regards,
+[Your Name]
+[Your Title]
+[Company Name]",,,,,,
+TC009,Request an update on a project proposal,Friendly,Client,200,True,2575.94,41dbad94-de46-42ad-8acc-220bb748e13e,Request for Update on [Project Name] Proposal,"Dear [Client Name],
+
+I hope you're doing well. I wanted to touch base regarding the proposal we submitted for [Project Name]. Could you please share any updates or feedback at your earliest convenience? We're eager to move forward and ensure everything aligns with your expectations.
+
+Thank you for your time and consideration.
+
+Best regards,
+[Your Name]
+[Your Title]
+[Your Company]",,,,,,
+TC010,Thank someone for helping with a project,Formal,Colleague,200,True,2145.23,f27cb50a-fdb6-4c40-97c2-f21ade25687c,Thank you for your assistance with the project,"Dear [Colleague's Name],
+
+I would like to express my sincere gratitude for your invaluable support on the recent project. Your expertise and dedication greatly contributed to its success.
+
+Thank you again for your hard work and collaboration.
+
+Sincerely,
+[Your Name]",,,,,,
+TC011,Thank someone for helping with a project,Professional,Colleague,200,True,2975.45,4feb70c2-f716-468e-b00f-aea0a606b53a,Thank You for Your Assistance on the Project,"Dear [Colleague Name],
+
+Thank you for your valuable assistance on the recent project. Your expertise and dedication greatly contributed to its success. I appreciate your willingness to collaborate and share your insights.
+
+Best regards,
+[Your Name]",,,,,,
+TC012,Thank someone for helping with a project,Friendly,Colleague,200,True,2118.89,c76d34e2-f302-460a-a7e8-810e113b79fe,Thank you for your help with the project,"Hi [Colleague Name],
+
+Thank you so much for your support on the [Project Name] project. Your insights and hard work made a real difference, and I truly appreciate your collaboration.
+
+Best regards,
+[Your Name]",,,,,,
+TC013,Request a meeting to discuss project progress,Formal,Manager,200,True,1740.81,7bc2799f-aabc-45a2-9133-b5ee107a525a,Request for Meeting to Discuss Project Progress,"Dear [Manager's Name],
+
+I hope this message finds you well. I would like to request a meeting to review the current progress of the project and discuss next steps. Could we schedule a 30‑minute meeting at your convenience next week? I am available on [Date] at [Time] or on [Alternative Date] at [Alternative Time], but I am happy to adjust to a time that suits you.
+
+Thank you for your consideration. I look forward to our discussion.
+
+Sincerely,
+[Your Name]
+[Your Position]
+[Your Contact Information]",,,,,,
+TC014,Request a meeting to discuss project progress,Professional,Manager,200,True,1620.69,bf2a73c5-3f1c-4cc7-a502-897c238958f2,Request for Meeting to Discuss Project Progress,"Dear [Manager's Name],
+
+I hope this message finds you well. I would like to schedule a meeting to review the progress of the [Project Name] and discuss next steps. Please let me know your availability next week.
+
+Thank you for your time.
+
+Sincerely,
+[Your Name]",,,,,,
+TC015,Request a meeting to discuss project progress,Friendly,Manager,200,True,1727.4,b031e04c-f67a-4201-8b2b-84de5d9a0147,Request to Discuss Project Progress,"Hi [Manager Name],
+
+I hope you're doing well. I'd like to schedule a meeting to review the progress of our project and discuss next steps. Could we meet sometime next week? Please let me know your availability.
+
+Thanks,
+[Your Name]",,,,,,
+TC021,Ask for clarification about project requirements,Friendly,Client,200,True,1530.07,499e143d-17e8-4e16-a340-01c8462e61d6,Request for Clarification on Project Requirements,"Hello [Client Name],
+
+I hope you’re doing well. I’m writing to confirm a few details about the [Project Name] to ensure we’re aligned on the requirements. Could you please clarify the following:
+
+1. The preferred format for deliverables (e.g., PDF, HTML, etc.)
+2. Any specific branding guidelines we should follow
+3. The expected timeline for the initial draft and final delivery
+
+Your guidance will help us stay on track and meet your expectations.
+
+Thank you for your time, and I look forward to your response.
+
+Best regards,
+[Your Name]
+[Your Position]
+[Your Company]",,,,,,
+TC022,Request permission to work from home tomorrow,Formal,Manager,200,True,1555.26,69c22126-c6f8-4d14-92cf-645d0f3c37d7,Request to Work from Home Tomorrow,"Dear [Manager Name],
+
+I am writing to request permission to work from home tomorrow, [Date]. I have ensured that all my responsibilities will be managed remotely and that I will remain available via email, phone, and our team collaboration tools throughout the day.
+
+Thank you for considering my request. Please let me know if you need any additional information.
+
+Sincerely,
+[Your Name]",,,,,,
+TC023,Request permission to work from home tomorrow,Professional,Manager,200,True,2168.04,e99f002d-f9d9-4279-908e-89af8afd99cf,Request to Work from Home Tomorrow,"Dear [Manager Name],
+
+I hope you are doing well. I am writing to request permission to work from home tomorrow, [Date], due to [Reason]. I will ensure that I remain available via email and phone and will complete all tasks as scheduled.
+
+Thank you for considering my request.
+
+Sincerely,
+[Your Name]",,,,,,
+TC024,Request permission to work from home tomorrow,Friendly,Manager,200,True,2090.65,8ca61cfb-7d6d-4d99-b592-6379a9e42a6d,Request to Work from Home Tomorrow,"Dear [Manager's Name],
+
+I hope you're doing well. I would like to request permission to work from home tomorrow, [Date], to attend to a personal matter while ensuring all my responsibilities are met. I will remain available via email and phone throughout the day and will complete all scheduled tasks.
+
+Thank you for considering my request. Please let me know if you need any additional information.
+
+Best regards,
+[Your Name]",,,,,,
+TC025,Inform a colleague about a project milestone,Formal,Colleague,200,True,2967.59,7d7c3182-e71f-4f9f-891b-73b64cc13702,Project Milestone Update,"Dear [Colleague Name],
+
+I am writing to inform you that we have successfully reached the [Milestone] of the [Project Name] on [Date]. This milestone marks a significant step toward our overall objectives and demonstrates the team's dedication and collaboration.
+
+Please let me know if you require any additional information or if there are next steps you would like to discuss.
+
+Sincerely,
+[Your Name]",,,,,,
+TC026,Inform a colleague about a project milestone,Professional,Colleague,200,True,1770.71,6d41fa83-792c-4233-ac49-e50866521519,Project Milestone: [Milestone Name] Completed,"Dear [Colleague Name],
+
+I am pleased to inform you that we have successfully completed the [Milestone Name] on [Date]. This milestone marks a significant step toward the overall project objectives. Key achievements include:
+- [Achievement 1]
+- [Achievement 2]
+- [Achievement 3]
+
+Next steps:
+- [Next Step 1]
+- [Next Step 2]
+
+Please let me know if you have any questions or need further details.
+
+Best regards,
+[Your Name]",,,,,,
+TC027,Inform a colleague about a project milestone,Friendly,Colleague,200,True,2232.83,7ec60d0e-37a1-42cd-841b-e13900a7cf8b,Project Milestone Update: [Milestone],"Hi [Colleague Name],
+
+I wanted to let you know that we have successfully reached the [Milestone] for the [Project Name] as of [Date]. This milestone marks a significant step toward our overall goals and sets the stage for the next phase of development.
+
+Thank you for your continued collaboration and support. Please let me know if you have any questions or need further details.
+
+Best regards,
+[Your Name]",,,,,,
+TC028,Politely decline a meeting invitation,Formal,Manager,200,True,2711.48,cd5c28b0-8c79-4c9f-8bc9-a64a4074d92c,Re: Meeting Invitation,"Dear [Manager Name], 
+
+Thank you for inviting me to the meeting on [Date]. Unfortunately, I must decline due to prior commitments. I appreciate your understanding.
+
+Sincerely,
+[Your Name]",,,,,,
+TC029,Politely decline a meeting invitation,Professional,Manager,200,True,2077.4,8ac32551-3cf5-4f86-a97f-a54db78838ab,Regarding Your Meeting Invitation,"Dear [Manager Name],
+
+Thank you for inviting me to the meeting scheduled for [Meeting Date] at [Meeting Time]. Unfortunately, I have a prior commitment at that time and will be unable to attend. I appreciate the opportunity and would be glad to review any materials or discuss the agenda at a later time that works for you.
+
+Thank you for your understanding.
+
+Sincerely,
+[Your Name]",,,,,,
+TC030,Politely decline a meeting invitation,Friendly,Manager,200,True,1788.61,d7eb9be3-3875-48b0-92e3-d1353f5d80c1,Regarding the Meeting Invitation,"Dear [Manager Name],
+
+Thank you for inviting me to the meeting scheduled on [Date]. Unfortunately, I have a prior commitment at that time and will be unable to attend. I appreciate the opportunity and hope to join future discussions.
+
+Best regards,
+[Your Name]",,,,,,
