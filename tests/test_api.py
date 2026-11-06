@@ -27,6 +27,7 @@ def configure_test_environment(monkeypatch):
     monkeypatch.setenv("APP_API_KEY", TEST_API_KEY)
     monkeypatch.setenv("RATE_LIMIT_REQUESTS", "5")
     monkeypatch.setenv("RATE_LIMIT_WINDOW_SECONDS", "60")
+    monkeypatch.setenv("RATE_LIMIT_BACKEND", "memory")
 
     limiter.reset()
 
